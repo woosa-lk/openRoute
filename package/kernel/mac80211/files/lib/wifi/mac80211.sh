@@ -107,7 +107,8 @@ config wifi-iface
 	option network  lan
 	option mode     ap
 	option ssid     WOOSA
-	option encryption none
+	option encryption psk2
+	option key      asdfghjkl
 EOF
 	devidx=$(($devidx + 1))
 	done
